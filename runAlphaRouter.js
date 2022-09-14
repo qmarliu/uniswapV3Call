@@ -23,12 +23,15 @@ const address0 = '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6'
 const name1 = 'TTT token'
 const symbol1 = 'TTT'
 const decimals1 = 18
-const address1 = '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984' //uni
+const address1 = '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984' // uni
+// const address1 = '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48' // usdc
+// const address1 = '0x3845badAde8e6dFF049820680d1F14bD3903a5d0' // sand
+// const address1 = '0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0' //matic
 
 const WETH = new Token(chainId, address0, decimals0, symbol0, name0)
 const TTT = new Token(chainId, address1, decimals1, symbol1, name1)
 
-const amount = '0.01'
+const amount = '2'
 const inputToken = TTT
 const outputToken = WETH
 const inputDecimal = 18
